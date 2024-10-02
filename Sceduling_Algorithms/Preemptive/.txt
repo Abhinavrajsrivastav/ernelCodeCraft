@@ -1,0 +1,43 @@
+
+
+---> Preemptive scheduling: algorithms in operating systems 
+allow the CPU to be taken away from a running process 
+and assigned to another process, ensuring that high-priority 
+or time-sensitive tasks can run without waiting for lower-priority
+tasks to finish.
+
+
+---> Examples:
+
+1. Round Robin (RR):
+
+The CPU is assigned to each process for a fixed time slice or quantum. 
+If the process doesn't finish within the time slice, 
+it's preempted and placed at the end of the queue, allowing other processes to execute.
+
+2. Shortest Remaining Time First (SRTF):
+
+This is a variation of the Shortest Job First (SJF) algorithm, 
+but it's preemptive. The process with the shortest remaining 
+execution time is always executed. If a new process arrives with 
+a shorter remaining time, the current process is preempted.
+
+3. Priority Scheduling (Preemptive):
+
+In this algorithm, each process is assigned a priority, 
+and the CPU is allocated to the process with the highest priority.
+If a new process arrives with a higher priority than the currently 
+running process, the CPU is preempted and assigned to the new process.
+
+4. Multilevel Queue Scheduling (Preemptive):
+
+Processes are divided into multiple queues based on priority,
+and each queue can use a different scheduling algorithm.
+Preemption can occur if a process from a higher-priority queue arrives.
+
+5. Multilevel Feedback Queue (MLFQ):
+
+This algorithm allows processes to move between multiple
+queues based on their behavior. It is highly preemptive,
+and processes in higher-priority queues can preempt
+those in lower-priority ones.

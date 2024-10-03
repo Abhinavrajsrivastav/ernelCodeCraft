@@ -1,0 +1,7 @@
+First-Come, First-Served (FCFS)
+Description: The process that arrives first gets executed first. It's a simple and straightforward approach.
+
+Characteristics:
+Non-preemptive
+Processes are executed in the order of their arrival.
+Can lead to the "convoy effect" where shorter processes have to wait for longer ones.

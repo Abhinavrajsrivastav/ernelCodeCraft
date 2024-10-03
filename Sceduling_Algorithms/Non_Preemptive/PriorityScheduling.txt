@@ -1,0 +1,7 @@
+Priority Scheduling - Non-preemptive
+Description: Each process is assigned a priority, and the process with the highest priority is executed first. 
+If two processes have the same priority, FCFS is used.
+
+Characteristics:
+Non-preemptive
+Lower-priority processes may have to wait for higher-priority ones to complete.

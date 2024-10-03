@@ -1,0 +1,10 @@
+Round Robin (RR)
+Description: Each process is assigned a fixed time slice or "quantum." 
+After a process uses its quantum, it is preempted, and the next process in the queue is executed.
+This continues in a cyclic order.
+
+
+Characteristics:
+Preemptive
+Fairly distributes CPU time across all processes.
+Suitable for time-sharing systems but can have high context switching overhead if the time quantum is too small.

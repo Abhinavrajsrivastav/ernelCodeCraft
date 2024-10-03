@@ -1,0 +1,8 @@
+Shortest Job First (SJF) - Non-preemptive
+Description: The process with the shortest burst time is selected for execution first. 
+If two processes have the same burst time, FCFS is used as a tie-breaker.
+Once a process starts executing, it runs until it completes (non-preemptive). 
+
+Characteristics:
+Non-preemptive
+It minimizes the average waiting time but requires prior knowledge of the burst times of all processes.

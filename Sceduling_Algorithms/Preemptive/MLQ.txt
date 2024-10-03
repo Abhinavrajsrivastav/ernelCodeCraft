@@ -1,0 +1,10 @@
+Multilevel Queue Scheduling (Preemptive)
+
+Description: Processes are divided into different queues based on priority.
+The scheduler first selects a queue with the highest priority and executes processes
+from that queue. Processes in lower-priority queues can be preempted if a higher-priority process arrives.
+
+Characteristics:
+Preemptive
+Each queue can have different scheduling algorithms (FCFS, RR, etc.)
+and processes can move between queues.Multilevel Queue Scheduling (Preemptive)

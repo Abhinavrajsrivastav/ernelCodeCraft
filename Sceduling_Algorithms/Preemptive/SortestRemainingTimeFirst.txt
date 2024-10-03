@@ -1,0 +1,10 @@
+Shortest Remaining Time First (SRTF)
+Description: A preemptive version of Shortest Job First (SJF). 
+The process with the shortest remaining time to complete is selected for execution. 
+If a new process arrives with a shorter remaining time than the currently running process, 
+the current process is preempted.
+
+
+Characteristics:
+Preemptive
+Provides optimal turnaround time but requires knowing the burst time in advance.

@@ -1,0 +1,8 @@
+Multilevel Feedback Queue Scheduling
+Description: This is a more advanced version of multilevel queue scheduling.
+It allows processes to move between different queues based on their behavior 
+(e.g., how long they have been running or waiting).
+
+Characteristics:
+Preemptive
+Dynamic adjustment of priority based on process characteristics to avoid starvation and balance system load.

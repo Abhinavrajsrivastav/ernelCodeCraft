@@ -1,0 +1,12 @@
+Concurrency-
+Concurrency is the ability of an operating system to execute multiple processes at the same time.
+This can be achieved through various mechanisms such as multitasking, multiprocessing, and multithreading.
+Concurrency allows for better utilization of system resources and can improve overall system performance.
+However, it also introduces challenges such as synchronization and resource sharing among processes.
+
+Multithreading -
+Multithreading is a programming technique that allows a single process to have multiple threads of execution.
+Each thread can perform different tasks concurrently within the same process.
+
+Thread -
+A thread is a lightweight process that can run concurrently with other threads within the same process.

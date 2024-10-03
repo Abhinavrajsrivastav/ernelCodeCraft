@@ -1,0 +1,15 @@
+Critical Section Problem(Race Condition) -
+One Resource, Many processes need to use this resource, 
+but only one can use it at a time to avoid conflict.
+
+Critical Section Problem Solutions
+
+1. Locks.
+2. Semaphores(Process synchronization) - (Binary(0 and 1) and 'Counting Semaphores[a,b] - when multiple instance of resource is available').
+3. Atomic operation: The instruction reads and writes to memory in one uninterruptible step.
+
+Solution Of CS Problem must have 3 conditions -
+
+1. Mutual Exclusion - Only one thread can access the shared resource at a time.
+2. Progress - any thread can try to get access of shared resource.
+3. Boundary Waiting - Limited waiting time.
